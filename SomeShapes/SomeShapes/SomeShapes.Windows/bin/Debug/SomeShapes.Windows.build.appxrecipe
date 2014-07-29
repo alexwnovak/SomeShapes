@@ -41,6 +41,9 @@
     <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\QuestionSlate.xbf">
+      <PackagePath>QuestionSlate.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>

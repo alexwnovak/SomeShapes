@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-07-04T19:44:06.997</Modified>
+      <Modified>2014-07-05T00:56:10.963</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\SomeShapes.Windows.exe">
       <PackagePath>SomeShapes.Windows.exe</PackagePath>
-      <Modified>2014-07-04T19:45:23.987</Modified>
+      <Modified>2014-07-05T01:10:16.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -50,15 +50,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-07-04T19:45:23.731</Modified>
+      <Modified>2014-07-05T00:56:10.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-07-04T19:44:55.225</Modified>
+      <Modified>2014-07-05T01:10:16.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\QuestionSlate.xbf">
+      <PackagePath>QuestionSlate.xbf</PackagePath>
+      <Modified>2014-07-05T00:56:10.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-07-04T19:44:06.026</Modified>
+      <Modified>2014-07-05T00:56:10.884</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

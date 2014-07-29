@@ -106,10 +106,21 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Letters\LetterQuestionGroup.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Positions\PositionQuestionGroup.cs" />
+    <Compile Include="Positions\PositionType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IQuestionGroup.cs" />
+    <Compile Include="QuestionRepository.cs" />
+    <Compile Include="QuestionSlate.xaml.cs">
+      <DependentUpon>QuestionSlate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rng.cs" />
+    <Compile Include="Shapes\ShapeQuestionGroup.cs" />
+    <Compile Include="Shapes\ShapeType.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -127,6 +138,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="QuestionSlate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

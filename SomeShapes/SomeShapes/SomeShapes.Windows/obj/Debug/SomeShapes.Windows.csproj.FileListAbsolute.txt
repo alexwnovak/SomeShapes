@@ -1,5 +1,6 @@
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\App.xbf
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\MainPage.xbf
+C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\QuestionSlate.xbf
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\SomeShapes.Windows.exe
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\SomeShapes.Windows.pdb
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\bin\Debug\resources.pri
@@ -9,11 +10,15 @@ C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\App.g.cs
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\MainPage.g.i.cs
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\MainPage.g.cs
+C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\QuestionSlate.g.i.cs
+C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\QuestionSlate.g.cs
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\XamlTypeInfo.g.cs
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\App.xaml
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\MainPage.xaml
+C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\QuestionSlate.xaml
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\App.xbf
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\MainPage.xbf
+C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\QuestionSlate.xbf
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\XamlSaveStateFile.xml
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\SomeShapes.Windows.exe
 C:\Git\alexwnovak\SomeShapes\SomeShapes\SomeShapes\SomeShapes.Windows\obj\Debug\SomeShapes.Windows.pdb

@@ -124,15 +124,23 @@ namespace SomeShapes.SomeShapes_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
+            _typeNameTable = new string[7];
             _typeNameTable[0] = "SomeShapes.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "SomeShapes.QuestionSlate";
+            _typeNameTable[4] = "Int32";
+            _typeNameTable[5] = "String";
+            _typeNameTable[6] = "Windows.UI.Xaml.UIElement";
 
-            _typeTable = new global::System.Type[3];
+            _typeTable = new global::System.Type[7];
             _typeTable[0] = typeof(global::SomeShapes.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::SomeShapes.QuestionSlate);
+            _typeTable[4] = typeof(global::System.Int32);
+            _typeTable[5] = typeof(global::System.String);
+            _typeTable[6] = typeof(global::Windows.UI.Xaml.UIElement);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -168,6 +176,7 @@ namespace SomeShapes.SomeShapes_Windows_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::SomeShapes.MainPage(); }
+        private object Activate_3_QuestionSlate() { return new global::SomeShapes.QuestionSlate(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -193,16 +202,106 @@ namespace SomeShapes.SomeShapes_Windows_XamlTypeInfo
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+
+            case 3:   //  SomeShapes.QuestionSlate
+                userType = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_3_QuestionSlate;
+                userType.AddMemberName("CorrectAnswer");
+                userType.AddMemberName("SpeechString");
+                userType.AddMemberName("Option1");
+                userType.AddMemberName("Option2");
+                userType.AddMemberName("Option3");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Int32
+                xamlType = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 5:   //  String
+                xamlType = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  Windows.UI.Xaml.UIElement
+                xamlType = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
             }
             return xamlType;
         }
 
 
+        private object get_0_QuestionSlate_CorrectAnswer(object instance)
+        {
+            var that = (global::SomeShapes.QuestionSlate)instance;
+            return that.CorrectAnswer;
+        }
+        private void set_0_QuestionSlate_CorrectAnswer(object instance, object Value)
+        {
+            var that = (global::SomeShapes.QuestionSlate)instance;
+            that.CorrectAnswer = (global::System.Int32)Value;
+        }
+        private object get_1_QuestionSlate_SpeechString(object instance)
+        {
+            var that = (global::SomeShapes.QuestionSlate)instance;
+            return that.SpeechString;
+        }
+        private void set_1_QuestionSlate_SpeechString(object instance, object Value)
+        {
+            var that = (global::SomeShapes.QuestionSlate)instance;
+            that.SpeechString = (global::System.String)Value;
+        }
+        private void set_2_QuestionSlate_Option1(object instance, object Value)
+        {
+            var that = (global::SomeShapes.QuestionSlate)instance;
+            that.Option1 = (global::Windows.UI.Xaml.UIElement)Value;
+        }
+        private void set_3_QuestionSlate_Option2(object instance, object Value)
+        {
+            var that = (global::SomeShapes.QuestionSlate)instance;
+            that.Option2 = (global::Windows.UI.Xaml.UIElement)Value;
+        }
+        private void set_4_QuestionSlate_Option3(object instance, object Value)
+        {
+            var that = (global::SomeShapes.QuestionSlate)instance;
+            that.Option3 = (global::Windows.UI.Xaml.UIElement)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "SomeShapes.QuestionSlate.CorrectAnswer":
+                userType = (global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SomeShapes.QuestionSlate");
+                xamlMember = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlMember(this, "CorrectAnswer", "Int32");
+                xamlMember.Getter = get_0_QuestionSlate_CorrectAnswer;
+                xamlMember.Setter = set_0_QuestionSlate_CorrectAnswer;
+                break;
+            case "SomeShapes.QuestionSlate.SpeechString":
+                userType = (global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SomeShapes.QuestionSlate");
+                xamlMember = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlMember(this, "SpeechString", "String");
+                xamlMember.Getter = get_1_QuestionSlate_SpeechString;
+                xamlMember.Setter = set_1_QuestionSlate_SpeechString;
+                break;
+            case "SomeShapes.QuestionSlate.Option1":
+                userType = (global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SomeShapes.QuestionSlate");
+                xamlMember = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlMember(this, "Option1", "Windows.UI.Xaml.UIElement");
+                xamlMember.Setter = set_2_QuestionSlate_Option1;
+                break;
+            case "SomeShapes.QuestionSlate.Option2":
+                userType = (global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SomeShapes.QuestionSlate");
+                xamlMember = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlMember(this, "Option2", "Windows.UI.Xaml.UIElement");
+                xamlMember.Setter = set_3_QuestionSlate_Option2;
+                break;
+            case "SomeShapes.QuestionSlate.Option3":
+                userType = (global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SomeShapes.QuestionSlate");
+                xamlMember = new global::SomeShapes.SomeShapes_Windows_XamlTypeInfo.XamlMember(this, "Option3", "Windows.UI.Xaml.UIElement");
+                xamlMember.Setter = set_4_QuestionSlate_Option3;
+                break;
+            }
             return xamlMember;
         }
     }
